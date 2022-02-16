@@ -1,0 +1,59 @@
+{
+    "message": {
+        "query_graph": {
+            "edges": {
+                "e00": {
+                    "subject": "n00",
+                    "object": "n01",
+                    "predicates": [
+                        "biolink:condition_associated_with_gene"
+                    ]
+                },
+                "e01": {
+                    "subject": "n01",
+                    "object": "n02",
+                    "predicates": [
+                        "biolink:condition_associated_with_gene"
+                    ]
+                },
+                "e02": {
+                    "subject": "n01",
+                    "object": "n03",
+                    "predicates": [
+                        "biolink:related_to"
+                    ]
+                }
+            },
+            "nodes": {
+                "n00": {
+                   
+                    "ids": [
+                        "MONDO:0020066"
+                    ],
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+                },
+                "n01": {
+                    "categories": [
+                        "biolink:Gene"
+                    ]
+                },
+                "n02": {
+                    "ids": [
+                        "MONDO:0007947"
+                    ],
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+                },
+                "n03": {
+                
+                    "categories": [
+                        "biolink:ChemicalEntity"
+                    ]
+                }
+            }
+        }
+    }
+}
