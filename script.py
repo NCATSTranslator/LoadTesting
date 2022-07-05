@@ -5,6 +5,7 @@ import logging
 import webbrowser
 import time
 import argparse
+from statistics import mean
 
 BASE_PATH=os.path.dirname(
       os.path.realpath(__file__)
@@ -37,16 +38,18 @@ def run(limit,delay):
     files = get_files("/queries")
     count = 0
     pk_list=[]
+    response_time_list = []
     for file in files:
         print(file)
         current_pk, response_time= sendQuery(file)
-        logging.debug("response time for the {} query is {}".format(os.path.basename(file), response_time))
+        logging.debug("response time for the {} query is {} seconds".format(os.path.basename(file), response_time))
         pk_list.append(current_pk)
+        response_time_list.append(response_time)
         time.sleep(delay)
         count+=1
         if count>=limit:
           break
-    return pk_list
+    return pk_list, response_time_list
 
 def browser(pk_list,url="https://arax.ncats.io/?r="):
     logging.debug("Entering Chrome")
@@ -63,9 +66,10 @@ def main():
     count = getattr(args,"count")
     delay = getattr(args,"delay")
     logging.debug("Number of queries to be run: {}".format(count))
-    pks=run(int(count),delay)
+    pks, response_time=run(int(count),delay)
     logging.debug("list of pks {} for {} queries submitted ".format(pks, count))
-    browser(pks)
+    logging.debug("Based on {} queires, the shortest response time is  {} sec, the longest response time is {} sec, and the average response time is {} sec".format(count, min(response_time), max(response_time), mean(response_time)))
+    #browser(pks)
 
 if __name__== '__main__':
     main()
