@@ -5,6 +5,7 @@ import logging
 import webbrowser
 import time
 import argparse
+import multiprocessing as mp
 
 BASE_PATH=os.path.dirname(
       os.path.realpath(__file__)
@@ -55,6 +56,45 @@ def browser(pk_list,url="https://arax.ncats.io/?r="):
         logging.debug(url+pk)
         webbrowser.get('firefox').open(url+pk)
 
+    
+def single_pk_total_time(pk):
+    
+    status_list=[]
+    start_time=time.time()
+    while True:
+        url=f"https://ars-prod.transltr.io/ars/api/messages/{pk}?trace=y"
+        r = requests.get(url)
+        rj = r.json()
+        for child in rj['children']:
+            if child['status'] == "Error":
+                pass
+            else:
+                status_list.append(child['status'])
+
+        if all( x == "Done" for x in status_list):
+            print(f"all ARAs have returned results for pk {pk}")
+            logging.debug(f"all ARAs have returned results for pk {pk}")
+            stop_time=time.time()
+            total_time = (stop_time - start_time)/60
+            print(f"it took {total_time} for it to get completed")
+            logging.debug(f"it took {total_time} for it to get completed")
+            break
+        
+        status_list=[]
+        time.sleep(30)
+        continue
+
+    return total_time
+
+def get_completion_time(pk_list):
+    ##https://www.machinelearningplus.com/python/parallel-processing-python/#:~:text=The%20general%20way%20to%20parallelize,of%20Pool%20s%20parallization%20methods.
+    # Step 1: Init multiprocessing.Pool()
+    pool = mp.Pool(mp.cpu_count())  
+    # Step 2: `pool.apply` the single_pk_total_time
+    Done_time = pool.map(single_pk_total_time, [pk  for pk in pk_list])
+    pool.close()   
+    print(Done_time[:10])
+    return Done_time
 
 
 def main():
@@ -66,6 +106,10 @@ def main():
     pks=run(int(count),delay)
     logging.debug("list of pks {} for {} queries submitted ".format(pks, count))
     browser(pks)
+    done_time=get_completion_time(pks)
+    print(f'done time is {done_time} minuets')
+    logging.debug("list of total_done time {} for {} queries submitted ".format(done_time, count))
+
 
 if __name__== '__main__':
     main()
