@@ -14,7 +14,8 @@ parser = argparse.ArgumentParser(description='Load Tester')
 parser.add_argument('-c', '--count', help='Number of queries to be run', default=10)
 parser.add_argument('-d','--delay',help='Number of seconds to delay between each query submission',default=0)
 
-
+#LIMIT IN MINUTES OF HOW LONG WE'RE WILLING TO WAIT ON A QUERY TO FINISH COMPLETELY
+TIME_LIMIT=10
 def sendQuery(query, url="https://ars-prod.transltr.io/ars/api/submit"):
     with open(query, "r") as f:
         query_json = json.load(f)
@@ -65,24 +66,44 @@ def single_pk_total_time(pk):
         url=f"https://ars-prod.transltr.io/ars/api/messages/{pk}?trace=y"
         r = requests.get(url)
         rj = r.json()
-        for child in rj['children']:
-            if child['status'] == "Error":
-                pass
-            else:
-                status_list.append(child['status'])
-
-        if all( x == "Done" for x in status_list):
-            print(f"all ARAs have returned results for pk {pk}")
+        if rj["status"]=="Done":
+            total_time = (time.time()-start_time)/60
             logging.debug(f"all ARAs have returned results for pk {pk}")
-            stop_time=time.time()
-            total_time = (stop_time - start_time)/60
-            print(f"it took {total_time} for it to get completed")
-            logging.debug(f"it took {total_time} for it to get completed")
+            print(f"all ARAs have returned results for pk {pk}")
+            print(f"it took {total_time} minutes for it to get completed")
             break
-        
-        status_list=[]
-        time.sleep(30)
-        continue
+        elif (time.time()-start_time)/60>10:
+            total_time=(time.time()-start_time)/60
+            stragglers=[]
+            print(f"It has taken longer than 10 minutes for pk {pk}")
+            print("The following tools have not yet finished: ")
+            for child in rj['children']:
+                 if child['status'] == "Running":
+                     stragglers.append(child["actor"]["inforesid"])
+            print(str(stragglers))
+
+
+            break
+        else:
+            time.sleep(30)
+        # for child in rj['children']:
+        #     if child['status'] == "Error":
+        #         pass
+        #     else:
+        #         status_list.append(child['status'])
+        #
+        # if all( x == "Done" for x in status_list):
+        #     print(f"all ARAs have returned results for pk {pk}")
+        #     logging.debug(f"all ARAs have returned results for pk {pk}")
+        #     stop_time=time.time()
+        #     total_time = (stop_time - start_time)/60
+        #     print(f"it took {total_time} for it to get completed")
+        #     logging.debug(f"it took {total_time} for it to get completed")
+        #     break
+        #
+        # status_list=[]
+        # time.sleep(30)
+        # continue
 
     return total_time
 
@@ -91,7 +112,7 @@ def get_completion_time(pk_list):
     # Step 1: Init multiprocessing.Pool()
     pool = mp.Pool(mp.cpu_count())  
     # Step 2: `pool.apply` the single_pk_total_time
-    Done_time = pool.map(single_pk_total_time, [pk  for pk in pk_list])
+    Done_time = pool.map(single_pk_total_time, [pk for pk in pk_list])
     pool.close()   
     print(Done_time[:10])
     return Done_time
@@ -107,8 +128,9 @@ def main():
     logging.debug("list of pks {} for {} queries submitted ".format(pks, count))
     browser(pks)
     done_time=get_completion_time(pks)
-    print(f'done time is {done_time} minuets')
+    print(f'done time is {done_time} minutes')
     logging.debug("list of total_done time {} for {} queries submitted ".format(done_time, count))
+    quit(0)
 
 
 if __name__== '__main__':
