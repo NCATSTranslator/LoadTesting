@@ -4,6 +4,7 @@ import os
 import logging
 import webbrowser
 import time
+import numpy as np
 import argparse
 import multiprocessing as mp
 
@@ -91,8 +92,10 @@ def get_completion_time(pk_list):
     # Step 1: Init multiprocessing.Pool()
     pool = mp.Pool(mp.cpu_count())  
     # Step 2: `pool.apply` the single_pk_total_time
-    Done_time = pool.map(single_pk_total_time, [pk  for pk in pk_list])
-    pool.close()   
+    Done_time = pool.map(single_pk_total_time, np.array(pk_list))
+    pool.close()  
+    #Done_t = Done_time.get() 
+    #print("output done time {}".format(Done_t))
     print(Done_time[:10])
     return Done_time
 
@@ -105,7 +108,7 @@ def main():
     logging.debug("Number of queries to be run: {}".format(count))
     pks=run(int(count),delay)
     logging.debug("list of pks {} for {} queries submitted ".format(pks, count))
-    browser(pks)
+    #browser(pks)
     done_time=get_completion_time(pks)
     print(f'done time is {done_time} minuets')
     logging.debug("list of total_done time {} for {} queries submitted ".format(done_time, count))
