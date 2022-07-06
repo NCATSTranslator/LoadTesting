@@ -1,0 +1,1026 @@
+DEBUG:root:Number of queries to be run: 10
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 799
+DEBUG:root:response time for the A.3_KCNMA1.json query is 0.204688 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.141718 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.175633 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.221772 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1222
+DEBUG:root:response time for the A.2a_RHOBTB2_twohop.json query is 0.137733 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.240563 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1012
+DEBUG:root:response time for the B.2b_DILI-fourth-one-hop-from-MESH_D000077185_Resveratrol.json query is 0.166244 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 3160
+DEBUG:root:response time for the C3.json query is 0.135346 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1187
+DEBUG:root:response time for the A.8_EGFR_simple.json query is 0.320462 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 4767
+DEBUG:root:response time for the C2.json query is 0.26163 seconds
+DEBUG:root:list of pks ['a3a449cd-37a8-4249-b4e8-8bb64a48bd82', 'd8a0f64a-27df-4643-a74b-119463e64498', '14ed2da7-1d80-4d50-8807-e500c6fb8c70', '9013eab1-b0c1-49f6-80e2-7fc0f80cd5ce', 'd0516bbe-81cd-4121-872e-2fd8689e7119', 'bfaa5f21-b328-4c9a-80c6-1d891400a9dd', '8868f3de-679f-4214-9813-3914149027d7', '57d2ab77-b17f-4b36-abcc-e97b30345a42', 'e4f1eea7-5ed2-40dc-9c9d-0fcf93532711', '334aeee6-5408-479b-9d7e-19d94b87766f'] for 10 queries submitted 
+DEBUG:root:Based on 10 queires, the shortest response time is  0.135346 sec, the longest response time is 0.320462 sec, and the average response time is 0.2005789 sec
+DEBUG:root:Number of queries to be run: 20
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 799
+DEBUG:root:response time for the A.3_KCNMA1.json query is 3.637921 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.14134 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.13982 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.125964 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1222
+DEBUG:root:response time for the A.2a_RHOBTB2_twohop.json query is 0.290354 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.201447 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1012
+DEBUG:root:response time for the B.2b_DILI-fourth-one-hop-from-MESH_D000077185_Resveratrol.json query is 0.137516 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 3160
+DEBUG:root:response time for the C3.json query is 0.22423 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1187
+DEBUG:root:response time for the A.8_EGFR_simple.json query is 0.145779 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 4767
+DEBUG:root:response time for the C2.json query is 0.137658 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 2.691324 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.918533 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.Multiomics_BigGIM_DR_KP_RHOBTB2.json query is 1.119075 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.986849 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1305
+DEBUG:root:response time for the A.0_RHOBTB2_direct.json query is 3.224386 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.0_RHOBTB2_direct_inverse.json query is 1.441286 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1244
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.973873 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 1.758216 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.121948 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 888
+DEBUG:root:response time for the location.json query is 0.121665 seconds
+DEBUG:root:list of pks ['cff52bef-7352-40ba-903a-a9cadea83578', '8d9f367d-d288-4baf-87c0-38f0fcff0a2e', '449e017e-e02d-4628-9c7f-1c1616028c69', '138433cf-1ec0-499a-8319-4bcb670961c7', '6f85f23e-bce8-4432-95fd-a3c7aa3c7148', '0cc70b2c-cfa8-4529-bd0b-eca282343c1d', '08433ee2-43a0-4a1e-8b0a-b71dd00f7ae7', 'fac9a5fa-4164-4f9c-9a41-53dcbebf044b', '7ac3e77b-7c82-46e6-8d79-e3395cae900c', '6a352765-41e6-4b6f-b858-808b544cacec', 'e0c5fc86-aa5a-4b35-9d05-4f69f7377eb3', '7afb05b7-ced4-4aca-88d5-1819d04b17ec', 'bd609b1b-b9f0-44ac-a692-f777a1f927b3', 'b34ab8cf-59ad-4792-a2e7-26ecc169be7d', '9ca23090-cac4-4739-9dab-366466c7bfc8', 'a8207aaf-1b6e-4899-b5c5-86e0b5d54a1a', 'adad2747-36c9-4388-9939-675c1719b1f6', '72b110ca-ae05-4aae-86e1-7ab465ee49e1', '149dee1d-50e3-4131-912e-01d8659c3a69', '054bfca1-aead-459e-97e8-85af9633f68d'] for 20 queries submitted 
+DEBUG:root:Based on 20 queires, the shortest response time is  0.121665 sec, the longest response time is 3.637921 sec, and the average response time is 0.9269592 sec
+DEBUG:root:Number of queries to be run: 30
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 799
+DEBUG:root:response time for the A.3_KCNMA1.json query is 0.132672 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.124432 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.162481 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.122479 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1222
+DEBUG:root:response time for the A.2a_RHOBTB2_twohop.json query is 0.122914 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.129759 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1012
+DEBUG:root:response time for the B.2b_DILI-fourth-one-hop-from-MESH_D000077185_Resveratrol.json query is 0.129887 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 3160
+DEBUG:root:response time for the C3.json query is 0.131669 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1187
+DEBUG:root:response time for the A.8_EGFR_simple.json query is 0.129184 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 4767
+DEBUG:root:response time for the C2.json query is 0.132643 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.128809 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.128329 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.Multiomics_BigGIM_DR_KP_RHOBTB2.json query is 0.498312 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.1404 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1305
+DEBUG:root:response time for the A.0_RHOBTB2_direct.json query is 0.133691 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.0_RHOBTB2_direct_inverse.json query is 0.404434 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1244
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 1.660124 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.118368 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.128838 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 888
+DEBUG:root:response time for the location.json query is 0.132191 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1284
+DEBUG:root:response time for the C.3_MS_SAME.json query is 6.542367 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the subclassM.json query is 0.126973 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1591
+DEBUG:root:response time for the B.1_DILI-three-hop.json query is 0.122053 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_F8_twohop.json query is 0.124201 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 887
+DEBUG:root:response time for the occurs.json query is 0.119973 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 897
+DEBUG:root:response time for the regulatedBy.json query is 0.13599 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1276
+DEBUG:root:response time for the D.1_PLX51107-acute-myeloid-leukemia.json query is 0.146006 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1010
+DEBUG:root:response time for the B.2a_DILI-fourth-one-hop-from-CHEBI_41879_Dexamethasone.json query is 0.119854 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2049
+DEBUG:root:response time for the A.2a_expanded_RNF207_twohop.json query is 0.123615 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 891
+DEBUG:root:response time for the biomarker.json query is 0.124621 seconds
+DEBUG:root:list of pks ['5369994b-dd68-4a15-bbfc-fa35d1358376', '06a31697-1e9d-4921-aa77-b8ed3b3b5aa0', 'a0a5960a-9267-4bf4-86a5-43c2fa7e2c36', 'b8d0a6ca-b9af-48b5-b2ab-3299ca5e3e23', '6342e669-46b1-4fa4-a575-19d0ef0e5671', 'c91725b7-c87f-4c46-9a5d-bab7a9e9dd40', 'e34031a2-cc74-45b8-81be-28c7be65cb4f', '67cf49c6-cb03-41e6-9af0-52ecc9791267', 'e44f3e10-0051-48c6-aca0-1839c0be8ba0', 'da0c8e0b-2434-4702-8080-d6778b22b8c4', '97553c05-7601-4c29-8a41-1c4b15795114', 'f7351c42-a498-44f0-881f-0c49a00082d5', 'dd554d89-cdc2-4972-bef7-de8b81ebf0c0', 'dc2583cd-addc-4fdc-8caa-c30ad01d5153', '02b38ca5-ff48-42bb-b9be-5e82326edc79', '05368324-8253-4424-bf4b-2a3607881901', 'b80a790a-d44c-47d0-9d18-b0710375620b', 'fc94ef0a-6626-4cde-909f-c7f26a00019b', 'df711ee3-a6d6-4ced-a005-ad2f80dabb3b', 'fa61f459-8805-4f49-b7ee-6ecc703d869d', 'afbc5ace-8607-4758-8756-126341afc048', 'fe7d6c9a-84dc-4c55-9396-c26237f88da0', 'dbee259c-132d-466e-ae63-c99dfc710995', '203b6cb1-3d1b-42ed-9030-7b18e5403ab4', 'f494fd14-6e98-43a3-894f-197fa9eaf88f', '7b583069-f901-4fd7-839a-4a44b62f366a', '69b15dbc-5f6d-4be7-a5a0-3a59a3ff4aae', '47f7ab32-7baf-47a9-a95e-c15068b1efba', 'eda728a5-9922-4bae-abdc-d01a7c24f075', '86ba5dd3-943d-4152-9660-0c5b0f01a50a'] for 30 queries submitted 
+DEBUG:root:Based on 30 queires, the shortest response time is  0.118368 sec, the longest response time is 6.542367 sec, and the average response time is 0.41590896666666666 sec
+DEBUG:root:Number of queries to be run: 40
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 799
+DEBUG:root:response time for the A.3_KCNMA1.json query is 0.159284 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.119097 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.120074 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.446423 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1222
+DEBUG:root:response time for the A.2a_RHOBTB2_twohop.json query is 1.122405 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.119767 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1012
+DEBUG:root:response time for the B.2b_DILI-fourth-one-hop-from-MESH_D000077185_Resveratrol.json query is 0.118048 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 3160
+DEBUG:root:response time for the C3.json query is 0.128834 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1187
+DEBUG:root:response time for the A.8_EGFR_simple.json query is 0.12209 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 4767
+DEBUG:root:response time for the C2.json query is 0.12077 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.123338 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.112406 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.Multiomics_BigGIM_DR_KP_RHOBTB2.json query is 0.131397 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.133397 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1305
+DEBUG:root:response time for the A.0_RHOBTB2_direct.json query is 0.114864 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.0_RHOBTB2_direct_inverse.json query is 0.120382 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1244
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.11674 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.122104 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.112823 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 888
+DEBUG:root:response time for the location.json query is 0.11768 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1284
+DEBUG:root:response time for the C.3_MS_SAME.json query is 0.124864 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the subclassM.json query is 0.123845 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1591
+DEBUG:root:response time for the B.1_DILI-three-hop.json query is 0.11689 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_F8_twohop.json query is 0.12789 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 887
+DEBUG:root:response time for the occurs.json query is 0.123011 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 897
+DEBUG:root:response time for the regulatedBy.json query is 0.125957 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1276
+DEBUG:root:response time for the D.1_PLX51107-acute-myeloid-leukemia.json query is 0.123675 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1010
+DEBUG:root:response time for the B.2a_DILI-fourth-one-hop-from-CHEBI_41879_Dexamethasone.json query is 0.124135 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2049
+DEBUG:root:response time for the A.2a_expanded_RNF207_twohop.json query is 0.128995 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 891
+DEBUG:root:response time for the biomarker.json query is 0.117714 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1243
+DEBUG:root:response time for the A.2_UGT8_twohop.json query is 0.119513 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the subclass.json query is 0.12139 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1107
+DEBUG:root:response time for the B.2d_DILI-fourth-one-hop-from-PUBCHEM.COMPOUND_5877_Methylprednisone.json query is 0.121703 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the risk2.json query is 0.128902 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1701
+DEBUG:root:response time for the C.2_Colchicine_pericarditis.json query is 0.136446 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 909
+DEBUG:root:response time for the derivesFrom.json query is 0.11705 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1258
+DEBUG:root:response time for the stutterToNeurological.json query is 0.127617 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 893
+DEBUG:root:response time for the A.Multiomics_BigGIM_DR_KP_EGFR.json query is 0.117958 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the risk.json query is 0.114748 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 922
+DEBUG:root:response time for the C.1-bleeding.json query is 0.127271 seconds
+DEBUG:root:list of pks ['b2056481-ad9f-4136-b792-4047a8cd0eb8', 'fdcce607-09a3-44dc-8a9e-e841e1e09893', 'fccce6c8-e4a8-47e7-9725-93c075103da7', '3d581311-2e57-478c-b3f2-f85d1f7fc938', '0370bf1a-73bc-40a9-8ef7-7f37611b31b0', '9a7361f7-884a-4019-9f90-244ba697ecfa', 'dd76bb17-1e45-4057-8e64-4d47864187cb', '391c781f-d1a1-4758-9082-06d1832a681b', 'f1091f25-57a3-472d-a82a-c607e935f240', 'd078ff12-d3ac-4fdd-8f47-51c61dddd14d', 'ed0f4032-139c-405b-ae30-d4e5c4160e15', '2559a1e9-7e53-4456-8ae5-640a24f6b539', '683162d2-da01-4ec1-bdb8-2357da43acec', '2704e6c1-b1e9-4fdb-8439-da3446c66bb7', '7ec027fa-4089-47bf-bee0-9e335e8924df', '56bad7b6-6e22-43c4-a079-673a829ea9d0', '9c95ce67-9649-4aca-9594-7a5a532ed41f', '434ae001-efc9-439f-afd5-4726297f9b3e', '8100eee5-2361-44e5-980f-f4715d0ef6fe', '7b68918f-e8d3-4f87-b126-516ba3af1c5f', 'bf33a4c9-1b0e-4628-8914-2e3e12a12ad3', '4a8d5211-36ae-4c31-b746-9e0ec8284692', 'd8dc4fe1-8f10-40ee-b081-d122dafd5e1b', '12ce6031-511f-4bd9-934c-9689e71922c6', '58f1cb32-2fcd-4b04-bafb-30dabc7e4115', '1bdaa5c3-4817-4c93-8543-af4275ca4a1c', '5de11c87-a55b-4af8-8111-82bd051f2ea7', '539aa77e-04f9-4220-a56d-e23dbc276b9e', '89ef5c1e-1901-407c-bca6-7e0d1fc4efbc', 'cf16cd9c-20f4-4a27-b7e4-eef5753edaa1', 'e64b27fd-a9fd-4588-ba98-306f16cee987', '207ec655-c7a5-4c0e-a030-fbdcf545fcf9', 'c6bf372f-2fbe-420b-9bdc-d039ca36bcf8', '8d973651-8ddb-476f-9604-806893a2a7c8', '72c49053-9b9d-40b2-86b8-75833fee248c', 'd5d07729-2d17-458a-9e61-9f67e77bc503', '785364b5-a04e-4e83-8e1a-4b389a1f3451', '9aef103e-18d5-4871-bf0b-666cd131f7f1', '554a8345-62b1-402e-b076-84a9a4d30f31', '205fdfa2-9b78-47ed-9cd5-d97926226f30'] for 40 queries submitted 
+DEBUG:root:Based on 40 queires, the shortest response time is  0.112406 sec, the longest response time is 1.122405 sec, and the average response time is 0.156287425 sec
+DEBUG:root:Number of queries to be run: 50
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 799
+DEBUG:root:response time for the A.3_KCNMA1.json query is 0.121869 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.106485 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.120686 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.119027 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1222
+DEBUG:root:response time for the A.2a_RHOBTB2_twohop.json query is 0.163339 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.13479 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1012
+DEBUG:root:response time for the B.2b_DILI-fourth-one-hop-from-MESH_D000077185_Resveratrol.json query is 0.115051 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 3160
+DEBUG:root:response time for the C3.json query is 0.147863 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1187
+DEBUG:root:response time for the A.8_EGFR_simple.json query is 0.120928 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 4767
+DEBUG:root:response time for the C2.json query is 0.127866 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.119034 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.120159 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.Multiomics_BigGIM_DR_KP_RHOBTB2.json query is 0.138155 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.120278 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1305
+DEBUG:root:response time for the A.0_RHOBTB2_direct.json query is 0.113035 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.0_RHOBTB2_direct_inverse.json query is 0.119112 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1244
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.158008 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.25051 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.119757 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 888
+DEBUG:root:response time for the location.json query is 0.122194 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1284
+DEBUG:root:response time for the C.3_MS_SAME.json query is 0.12275 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the subclassM.json query is 0.129817 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1591
+DEBUG:root:response time for the B.1_DILI-three-hop.json query is 0.137401 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_F8_twohop.json query is 0.129256 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 887
+DEBUG:root:response time for the occurs.json query is 0.12319 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 897
+DEBUG:root:response time for the regulatedBy.json query is 0.127998 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1276
+DEBUG:root:response time for the D.1_PLX51107-acute-myeloid-leukemia.json query is 0.124871 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1010
+DEBUG:root:response time for the B.2a_DILI-fourth-one-hop-from-CHEBI_41879_Dexamethasone.json query is 0.118341 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2049
+DEBUG:root:response time for the A.2a_expanded_RNF207_twohop.json query is 0.124865 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 891
+DEBUG:root:response time for the biomarker.json query is 0.121657 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1243
+DEBUG:root:response time for the A.2_UGT8_twohop.json query is 0.131074 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the subclass.json query is 0.295401 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1107
+DEBUG:root:response time for the B.2d_DILI-fourth-one-hop-from-PUBCHEM.COMPOUND_5877_Methylprednisone.json query is 0.152745 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the risk2.json query is 0.615604 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1701
+DEBUG:root:response time for the C.2_Colchicine_pericarditis.json query is 0.110264 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 909
+DEBUG:root:response time for the derivesFrom.json query is 0.205883 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1258
+DEBUG:root:response time for the stutterToNeurological.json query is 0.126087 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 893
+DEBUG:root:response time for the A.Multiomics_BigGIM_DR_KP_EGFR.json query is 0.382217 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the risk.json query is 0.689115 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 922
+DEBUG:root:response time for the C.1-bleeding.json query is 0.118468 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-FOP.json query is 0.107049 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1530
+DEBUG:root:response time for the A.2_RHOBTB2_twohop_constrained.json query is 0.116511 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-OCD.json query is 0.122253 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1008
+DEBUG:root:response time for the B.2c_DILI-fourth-one-hop-from-MESH_D000077385_Silybin.json query is 0.144414 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1707
+DEBUG:root:response time for the C.2_temp.json query is 0.122723 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1255
+DEBUG:root:response time for the D.1-hgd-alkaptonuria.json query is 0.119244 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-liposarcoma.json query is 0.121403 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1292
+DEBUG:root:response time for the edsMarfanSharedGenes.json query is 0.121864 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1019
+DEBUG:root:response time for the B.2f_DILI-fourth-one-hop-from-CHEMBL.COMPOUND_CHEMBL50_Quercetin.json query is 0.121216 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1473
+DEBUG:root:response time for the A.9_EGFR_advanced.json query is 0.123459 seconds
+DEBUG:root:list of pks ['42c31036-a3b6-4705-8bd7-b3aa7f9c5794', '72bed92a-e19e-4091-a026-c4ecadab4123', '81f86947-3041-47c4-8e9f-de7649a21e5d', '051a409d-da58-41d8-8267-9343870613a3', '4bf9c7e5-0742-43dc-b4aa-c8bfafd92a72', '786ba796-96c0-4d8b-b7e8-77b47b5de53e', 'a6e1a84d-194d-4d87-898b-c04f41a7d8de', '37072b3e-d2bb-4e4c-9a23-08c5b9d7b2c4', '2bd796a8-7865-444a-9758-6ad0cc978db2', 'd3e1a37b-2f38-4ef0-8394-beedb68a8ce0', 'd058b1ed-5c6d-45cb-ad31-0a3eacbd68fa', 'd8f1e801-a11a-44bb-bca5-4db5e6aa6583', '001992fb-d74a-41d3-910d-49f2271a8549', 'a6f9cfd3-ab92-4a0c-99ff-36871dd50b9e', 'a378dc2a-1cb2-47e8-a3f6-fd42c90ccaee', 'a982a56b-89f5-4a1b-aa71-b939d99d944f', '6116af86-a7b9-429c-b677-ad5a9d1229fd', '609bb541-cd62-4479-8e9b-91cd77ace123', 'a3ef306c-ccf2-494c-83b5-89229d7fbfa8', 'bb446395-a533-44f8-82a1-9ef6cb94d960', '2e1152f1-db8e-4658-a7a4-3d6b506d1b22', 'd727150a-0a71-464f-96c7-c808eb96d816', '7306d0af-bb61-47fd-b89d-4d1cba6a4a0a', 'd57b0008-e86b-4078-b5d3-a2e2357637fc', '63d29442-bb3e-4f3d-9e2e-00e1e675129c', 'fbbc7e0b-5b61-4de7-94df-54de76dbe466', '4d9f2532-970d-4456-aa5b-76b0df20b929', '5f9ae5ce-932e-4cf7-b53b-24e90955d557', '3b8c3030-7459-49f9-8016-f60ee18a557b', '1821175f-e3c8-4828-8b72-e8e6a6c6b31d', '7deac7ec-33d7-4200-9d3c-fdb3d3322679', '8466c713-d0a1-4d0b-bbde-bdac78a6b1e0', '755c9313-1486-4de9-8a2c-bb6b117210f5', 'd60a5ab2-58fd-4356-b0da-c22cbb7d7685', 'c643632e-fd7d-4011-b6db-a74a3bf941fe', '4dd9f719-7317-49a4-969d-d6adebd03c6c', 'f0e19ce0-26d3-4cb8-98e5-e299106a7de9', 'f5a0dfb2-ab88-4a6f-a735-ba8bc7df4d2c', '509ed596-2318-40f8-a2ea-c95388148c20', '58dd308d-6f86-439f-8679-24550407fde3', '523f7253-8fba-4239-b2c3-4706638430a6', 'e59da168-ac80-4668-a6cb-18b94318bd73', '7397364d-d2e4-4b3c-b638-09238d3444e4', '433499c9-00d8-40ae-8d00-b5069805e3d7', '266f864f-02ad-4cae-907f-72c7b22ddb80', '0178b966-ce4a-45c3-b788-b18de7481c7b', 'f70ef32f-097d-47ca-a0da-b9929ab063c7', 'f18543d7-2d02-409c-b5d9-e12034d716a5', '8aa6cbf7-6744-41b5-bcf7-17bb5134e275', '5d8f2a83-a9f2-4c2b-92a5-7a3adf7cb62d'] for 50 queries submitted 
+DEBUG:root:Based on 50 queires, the shortest response time is  0.106485 sec, the longest response time is 0.689115 sec, and the average response time is 0.15930572 sec
+DEBUG:root:Number of queries to be run: 60
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 799
+DEBUG:root:response time for the A.3_KCNMA1.json query is 0.127396 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.123023 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.119076 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.145911 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1222
+DEBUG:root:response time for the A.2a_RHOBTB2_twohop.json query is 0.25851 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.119124 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1012
+DEBUG:root:response time for the B.2b_DILI-fourth-one-hop-from-MESH_D000077185_Resveratrol.json query is 0.131717 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 3160
+DEBUG:root:response time for the C3.json query is 0.154846 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1187
+DEBUG:root:response time for the A.8_EGFR_simple.json query is 0.141984 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 4767
+DEBUG:root:response time for the C2.json query is 0.122951 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.113916 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.120895 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.Multiomics_BigGIM_DR_KP_RHOBTB2.json query is 0.132704 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.122396 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1305
+DEBUG:root:response time for the A.0_RHOBTB2_direct.json query is 0.123993 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the A.0_RHOBTB2_direct_inverse.json query is 0.112935 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1244
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.126969 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.119137 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.118546 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 888
+DEBUG:root:response time for the location.json query is 0.128475 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1284
+DEBUG:root:response time for the C.3_MS_SAME.json query is 0.11945 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the subclassM.json query is 0.120913 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1591
+DEBUG:root:response time for the B.1_DILI-three-hop.json query is 0.158062 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_F8_twohop.json query is 0.134585 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 887
+DEBUG:root:response time for the occurs.json query is 0.147243 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 897
+DEBUG:root:response time for the regulatedBy.json query is 0.133516 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1276
+DEBUG:root:response time for the D.1_PLX51107-acute-myeloid-leukemia.json query is 0.126471 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1010
+DEBUG:root:response time for the B.2a_DILI-fourth-one-hop-from-CHEBI_41879_Dexamethasone.json query is 0.125949 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2049
+DEBUG:root:response time for the A.2a_expanded_RNF207_twohop.json query is 0.120796 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 891
+DEBUG:root:response time for the biomarker.json query is 0.113779 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1243
+DEBUG:root:response time for the A.2_UGT8_twohop.json query is 0.134313 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the subclass.json query is 0.109832 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1107
+DEBUG:root:response time for the B.2d_DILI-fourth-one-hop-from-PUBCHEM.COMPOUND_5877_Methylprednisone.json query is 0.12266 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the risk2.json query is 0.121802 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1701
+DEBUG:root:response time for the C.2_Colchicine_pericarditis.json query is 0.138897 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 909
+DEBUG:root:response time for the derivesFrom.json query is 0.353157 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1258
+DEBUG:root:response time for the stutterToNeurological.json query is 0.125311 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 893
+DEBUG:root:response time for the A.Multiomics_BigGIM_DR_KP_EGFR.json query is 0.128285 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 894
+DEBUG:root:response time for the risk.json query is 0.161786 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 922
+DEBUG:root:response time for the C.1-bleeding.json query is 0.116237 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-FOP.json query is 0.125399 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1530
+DEBUG:root:response time for the A.2_RHOBTB2_twohop_constrained.json query is 0.12123 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-OCD.json query is 0.142894 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1008
+DEBUG:root:response time for the B.2c_DILI-fourth-one-hop-from-MESH_D000077385_Silybin.json query is 0.161029 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1707
+DEBUG:root:response time for the C.2_temp.json query is 0.130894 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1255
+DEBUG:root:response time for the D.1-hgd-alkaptonuria.json query is 0.120228 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-liposarcoma.json query is 0.120248 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1292
+DEBUG:root:response time for the edsMarfanSharedGenes.json query is 0.143156 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1019
+DEBUG:root:response time for the B.2f_DILI-fourth-one-hop-from-CHEMBL.COMPOUND_CHEMBL50_Quercetin.json query is 0.110985 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1473
+DEBUG:root:response time for the A.9_EGFR_advanced.json query is 0.116905 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1315
+DEBUG:root:response time for the C1.json query is 0.110028 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1017
+DEBUG:root:response time for the B.2e_DILI-fourth-one-hop-from-PUBCHEM.COMPOUND_5865_Prednisone.json query is 0.122241 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1254
+DEBUG:root:response time for the D.1_RNF207-long-qt.json query is 0.119514 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2334
+DEBUG:root:response time for the A.2a_expanded_RHOBTB2_twohop_constrained.json query is 0.131043 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1258
+DEBUG:root:response time for the stutterToLanguage.json query is 0.11072 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 883
+DEBUG:root:response time for the cataractTreatment.json query is 0.130653 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 900
+DEBUG:root:response time for the A.1_RHOBTB2.json query is 0.113618 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1257
+DEBUG:root:response time for the A.0_direct.json query is 0.120507 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2049
+DEBUG:root:response time for the A.2a_expanded_LRRK_twohop.json query is 0.126163 seconds
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1257
+DEBUG:root:response time for the A.0_26s-direct.json query is 0.133023 seconds
+DEBUG:root:list of pks ['80276add-b4f5-4a5a-9a11-bffe10fb4181', '66fb3041-b50b-4cbf-a0b7-ae79f30d5773', '0a0a2f93-5201-432c-99a4-ba1aff3d64e5', '0bf2e169-fc13-46cf-88d4-ca20900c37de', 'f853a329-63f7-4d85-8f0a-9063317f2cf2', '6b07eba2-7026-4182-aa91-68a110bb29ac', '288a4d78-f20a-49d0-842e-59903e73826e', '5b5aaef0-2e10-4792-ab11-3be3e87918cd', 'f8e5c29c-507d-4a15-83bf-0d9cf58e5e03', '41bd78c9-be98-4b43-be1b-cc16c6d9932e', '243a9114-f2d5-417c-826a-732f9d53861c', '18e1edf6-26bd-48ea-98b2-e217f31304e6', '2755d60c-4aa4-4f80-b3e0-917d3bdae994', '21d552b5-ec77-4319-876c-3b234c02b129', '9ed60d88-a669-42c3-9dfd-e8444f637236', '7177831f-4144-49f2-b7bd-b437f2474a7f', 'c9268550-d8ea-47a3-8973-e7e4e6118c2b', 'e3964b75-cfd0-4d24-9889-8e59c70fef13', '2ff23ba5-001f-4ebf-bbd1-12c079a7eb35', '31c90c80-65dc-450f-8289-6a256a24d2df', '185cd6bb-e2be-4007-ab95-a7f3e015b0fe', '2294e0ad-2c0b-4750-836e-804008623199', 'cbf4397b-bf4b-4feb-8b88-3268d4756703', 'da428337-f822-4674-9f68-c517d1262f0d', 'a7c90456-a6d1-4674-af09-bacf3b73b9b5', 'b3496485-aae8-4637-b7cb-023588b653e4', '9198908a-80d8-4ab5-acc1-acffc4ab2fca', 'f529db3b-0fdb-4eb0-a243-9d6655a45ae9', '2c2f09e0-e323-4ee1-b1b7-4b79e6cf7978', 'decafa0a-339f-445f-b61a-8bcb806b7b9c', 'e47d088b-5b54-4357-aada-0438891ff06c', '5ad869b5-9f87-48de-b36b-7079dfad54c2', '35ca4c83-3067-403e-a031-62428903d61e', '53551d17-921d-48e4-9715-0764a17cf243', '4889dfdc-53d9-4231-b9e5-a8aa5cdcd1a0', '04e6c2c6-fe41-482e-8054-9116251188f9', '9dcd6758-a966-4822-ac15-4ed248ae1856', '76344e94-cb33-4df0-8f4b-1805db9cffb3', '96e01b99-4d1f-4f75-8f35-384e92aafbf0', '2ff2819d-16fe-4a37-bf0e-98be334d38a2', '892e2e7b-799a-4ecc-95f2-dd9c10848cd9', 'e39db68e-234c-4c59-b3d1-61d4c05fb197', '3501fae7-3d73-4227-8285-7f46cb619cfa', 'ba49a775-0ca0-4efc-9d88-bedae372ab74', '478250a3-375b-4744-8d57-c68c2da93023', 'c51c3c14-581d-4fb1-9d60-99eaa0197124', '8dc69980-0df7-4aad-981b-4ef6c25ca655', '18565648-a496-4f4c-8b4f-766df79ab1e4', '743cd787-0c94-4422-a4cb-965dacc01c5b', '66610326-9406-47e7-bcee-b0b0e639938a', '0c655db2-8b96-4f0c-bd44-760963b04d1b', '9f9df3ae-2bdb-4716-99bf-443625a32a19', 'eed794f7-fc1a-44a9-a3d6-06478dacad6f', 'bde50988-ef49-490f-b6f3-bb02b77a733a', '28cdcc57-1c66-4ed0-bcbc-6acf4dd946d2', 'ba8082e9-9f40-401e-b720-01e2940108ff', 'c9bdca68-15c3-445b-b8ff-5d6921ac645c', 'c05f5965-34d1-4871-ba59-36ed10e8c4f1', 'e62db576-341a-4664-871e-bb089c651e64', 'e44d22b8-c901-4058-b4b0-58544a4de37f'] for 60 queries submitted 
+DEBUG:root:Based on 60 queires, the shortest response time is  0.109832 sec, the longest response time is 0.353157 sec, and the average response time is 0.13313376666666668 sec
+DEBUG:root:Number of queries to be run: 10
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.137714
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.134175
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.122254
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.124672
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.119502
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.123587
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.133973
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1190
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.135839
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.130989
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.137804
+DEBUG:root:list of pks ['b7a0c183-bc16-43c8-8704-3b893da50774', '732e9984-c222-4264-8b36-bb061836f450', 'b2bfdad3-5649-4ef3-82be-e4d98f7bbf4a', 'ba3589a9-c3e3-4ab0-925c-b817b2211aac', '88b53d00-e2b9-48b3-a578-2eb252f6a1da', '9ead03c0-2be7-4299-af2c-21070a8db213', '244df9eb-6aa0-49c0-86d5-74ffcbecc894', 'e26976c6-8560-48dd-9a68-d1377c633675', '76d56268-8d63-456f-9b7e-9291fa0bc845', '3552864a-5de5-4323-97de-52d2ef87c3fa'] for 10 queries submitted 
+DEBUG:root:Entering Chrome
+DEBUG:root:Chrome processing pk: b7a0c183-bc16-43c8-8704-3b893da50774
+DEBUG:root:https://arax.ncats.io/?r=b7a0c183-bc16-43c8-8704-3b893da50774
+DEBUG:root:Chrome processing pk: 732e9984-c222-4264-8b36-bb061836f450
+DEBUG:root:https://arax.ncats.io/?r=732e9984-c222-4264-8b36-bb061836f450
+DEBUG:root:Chrome processing pk: b2bfdad3-5649-4ef3-82be-e4d98f7bbf4a
+DEBUG:root:https://arax.ncats.io/?r=b2bfdad3-5649-4ef3-82be-e4d98f7bbf4a
+DEBUG:root:Chrome processing pk: ba3589a9-c3e3-4ab0-925c-b817b2211aac
+DEBUG:root:https://arax.ncats.io/?r=ba3589a9-c3e3-4ab0-925c-b817b2211aac
+DEBUG:root:Chrome processing pk: 88b53d00-e2b9-48b3-a578-2eb252f6a1da
+DEBUG:root:https://arax.ncats.io/?r=88b53d00-e2b9-48b3-a578-2eb252f6a1da
+DEBUG:root:Chrome processing pk: 9ead03c0-2be7-4299-af2c-21070a8db213
+DEBUG:root:https://arax.ncats.io/?r=9ead03c0-2be7-4299-af2c-21070a8db213
+DEBUG:root:Chrome processing pk: 244df9eb-6aa0-49c0-86d5-74ffcbecc894
+DEBUG:root:https://arax.ncats.io/?r=244df9eb-6aa0-49c0-86d5-74ffcbecc894
+DEBUG:root:Chrome processing pk: e26976c6-8560-48dd-9a68-d1377c633675
+DEBUG:root:https://arax.ncats.io/?r=e26976c6-8560-48dd-9a68-d1377c633675
+DEBUG:root:Chrome processing pk: 76d56268-8d63-456f-9b7e-9291fa0bc845
+DEBUG:root:https://arax.ncats.io/?r=76d56268-8d63-456f-9b7e-9291fa0bc845
+DEBUG:root:Chrome processing pk: 3552864a-5de5-4323-97de-52d2ef87c3fa
+DEBUG:root:https://arax.ncats.io/?r=3552864a-5de5-4323-97de-52d2ef87c3fa
+DEBUG:root:list of total_done time [0.0028976321220397947, 0.0013860702514648438, 0.0013465523719787599, 0.002321934700012207, 0.001006933053334554, 0.0014072815577189127, 0.0013601978619893391, 0.001085050900777181, 0.0009496490160624186, 0.001554115613301595] for 10 queries submitted 
+DEBUG:root:Number of queries to be run: 10
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.353637
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.127484
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 2.234372
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.911426
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.120086
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.122346
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.134206
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1190
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.123279
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.132245
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.281099
+DEBUG:root:list of pks ['42a69747-6b80-47c1-a995-7c9d10150992', 'dd66790b-6855-43eb-8695-298d4a706ddd', '563ce2c7-87d1-4fe1-a0d2-1e52d5a265e1', 'ad0fe7e6-6b3f-4941-9ef8-d9c42777b422', '49407bb8-6058-4f88-9d7d-544dd2122546', '365b0834-2b3d-4e30-9476-34ad157dd36a', 'e80565c5-01c2-46dd-888c-ee2e5a00a493', 'c6148d94-5016-4cc0-bd28-ed04280b7464', 'c910522b-2c26-4a78-8209-0ff7a9784176', '61e5ad34-be4f-4f2b-ae51-357f9ed19c17'] for 10 queries submitted 
+DEBUG:root:Entering Chrome
+DEBUG:root:Chrome processing pk: 42a69747-6b80-47c1-a995-7c9d10150992
+DEBUG:root:https://arax.ncats.io/?r=42a69747-6b80-47c1-a995-7c9d10150992
+DEBUG:root:Chrome processing pk: dd66790b-6855-43eb-8695-298d4a706ddd
+DEBUG:root:https://arax.ncats.io/?r=dd66790b-6855-43eb-8695-298d4a706ddd
+DEBUG:root:Chrome processing pk: 563ce2c7-87d1-4fe1-a0d2-1e52d5a265e1
+DEBUG:root:https://arax.ncats.io/?r=563ce2c7-87d1-4fe1-a0d2-1e52d5a265e1
+DEBUG:root:Chrome processing pk: ad0fe7e6-6b3f-4941-9ef8-d9c42777b422
+DEBUG:root:https://arax.ncats.io/?r=ad0fe7e6-6b3f-4941-9ef8-d9c42777b422
+DEBUG:root:Chrome processing pk: 49407bb8-6058-4f88-9d7d-544dd2122546
+DEBUG:root:https://arax.ncats.io/?r=49407bb8-6058-4f88-9d7d-544dd2122546
+DEBUG:root:Chrome processing pk: 365b0834-2b3d-4e30-9476-34ad157dd36a
+DEBUG:root:https://arax.ncats.io/?r=365b0834-2b3d-4e30-9476-34ad157dd36a
+DEBUG:root:Chrome processing pk: e80565c5-01c2-46dd-888c-ee2e5a00a493
+DEBUG:root:https://arax.ncats.io/?r=e80565c5-01c2-46dd-888c-ee2e5a00a493
+DEBUG:root:Chrome processing pk: c6148d94-5016-4cc0-bd28-ed04280b7464
+DEBUG:root:https://arax.ncats.io/?r=c6148d94-5016-4cc0-bd28-ed04280b7464
+DEBUG:root:Chrome processing pk: c910522b-2c26-4a78-8209-0ff7a9784176
+DEBUG:root:https://arax.ncats.io/?r=c910522b-2c26-4a78-8209-0ff7a9784176
+DEBUG:root:Chrome processing pk: 61e5ad34-be4f-4f2b-ae51-357f9ed19c17
+DEBUG:root:https://arax.ncats.io/?r=61e5ad34-be4f-4f2b-ae51-357f9ed19c17
+DEBUG:root:list of total_done time None for 10 queries submitted 
+DEBUG:root:Number of queries to be run: 10
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.128837
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.120812
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.131355
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.120277
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.116968
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.117265
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.120458
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1190
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.128178
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.154091
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.110945
+DEBUG:root:list of pks ['694a9b22-1f46-46b8-ac22-c199bc51dda1', '303f04d5-753d-49dd-94d2-bb3b2c0aa700', '8a65b968-2239-4064-89e6-6dcde424d6b4', '7f6db05b-c2cc-4127-a128-97cda868cd17', 'f9f12fec-70cc-40c1-9d62-59e2104b20db', '26873cf4-20bd-4089-94fe-2df075dae7d5', 'fff50cd2-89fa-4341-a202-c746583536cc', '159655f0-7258-4f2a-bfb6-7c32305fd4b5', '9f1db1b6-a53f-4cf7-8e36-a656db4894fa', 'ed1ef959-9a77-4fc0-b0aa-88af01005164'] for 10 queries submitted 
+DEBUG:root:Entering Chrome
+DEBUG:root:Chrome processing pk: 694a9b22-1f46-46b8-ac22-c199bc51dda1
+DEBUG:root:https://arax.ncats.io/?r=694a9b22-1f46-46b8-ac22-c199bc51dda1
+DEBUG:root:Chrome processing pk: 303f04d5-753d-49dd-94d2-bb3b2c0aa700
+DEBUG:root:https://arax.ncats.io/?r=303f04d5-753d-49dd-94d2-bb3b2c0aa700
+DEBUG:root:Chrome processing pk: 8a65b968-2239-4064-89e6-6dcde424d6b4
+DEBUG:root:https://arax.ncats.io/?r=8a65b968-2239-4064-89e6-6dcde424d6b4
+DEBUG:root:Chrome processing pk: 7f6db05b-c2cc-4127-a128-97cda868cd17
+DEBUG:root:https://arax.ncats.io/?r=7f6db05b-c2cc-4127-a128-97cda868cd17
+DEBUG:root:Chrome processing pk: f9f12fec-70cc-40c1-9d62-59e2104b20db
+DEBUG:root:https://arax.ncats.io/?r=f9f12fec-70cc-40c1-9d62-59e2104b20db
+DEBUG:root:Chrome processing pk: 26873cf4-20bd-4089-94fe-2df075dae7d5
+DEBUG:root:https://arax.ncats.io/?r=26873cf4-20bd-4089-94fe-2df075dae7d5
+DEBUG:root:Chrome processing pk: fff50cd2-89fa-4341-a202-c746583536cc
+DEBUG:root:https://arax.ncats.io/?r=fff50cd2-89fa-4341-a202-c746583536cc
+DEBUG:root:Chrome processing pk: 159655f0-7258-4f2a-bfb6-7c32305fd4b5
+DEBUG:root:https://arax.ncats.io/?r=159655f0-7258-4f2a-bfb6-7c32305fd4b5
+DEBUG:root:Chrome processing pk: 9f1db1b6-a53f-4cf7-8e36-a656db4894fa
+DEBUG:root:https://arax.ncats.io/?r=9f1db1b6-a53f-4cf7-8e36-a656db4894fa
+DEBUG:root:Chrome processing pk: ed1ef959-9a77-4fc0-b0aa-88af01005164
+DEBUG:root:https://arax.ncats.io/?r=ed1ef959-9a77-4fc0-b0aa-88af01005164
+DEBUG:root:list of total_done time None for 10 queries submitted 
+DEBUG:root:Number of queries to be run: 10
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.126161
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.122095
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.116409
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.134716
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.125248
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.115179
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.128826
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1190
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.121444
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.112849
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.153529
+DEBUG:root:list of pks ['5512cf13-cec8-4204-adee-0e374f4f45bb', '4a4e5392-19ef-46b7-b656-694366a346de', '8bf7e326-ee9e-404a-82ea-d040fcce04ee', '9824c6e4-4298-455d-a433-f9021f405695', '47c8d42b-1554-475a-ba18-6e734549c645', 'b9f4b358-b59d-4fef-9653-2d2890dfc625', '60c1a06a-84ff-433d-946e-7da3852d4a54', 'ad1cd126-eba3-436d-9a70-bd70df8d012b', '3c8297a1-b8a9-4530-8887-4e916cb8368b', 'f54b369c-1b9b-486e-9b03-d59b213d2816'] for 10 queries submitted 
+DEBUG:root:Entering Chrome
+DEBUG:root:Chrome processing pk: 5512cf13-cec8-4204-adee-0e374f4f45bb
+DEBUG:root:https://arax.ncats.io/?r=5512cf13-cec8-4204-adee-0e374f4f45bb
+DEBUG:root:Chrome processing pk: 4a4e5392-19ef-46b7-b656-694366a346de
+DEBUG:root:https://arax.ncats.io/?r=4a4e5392-19ef-46b7-b656-694366a346de
+DEBUG:root:Chrome processing pk: 8bf7e326-ee9e-404a-82ea-d040fcce04ee
+DEBUG:root:https://arax.ncats.io/?r=8bf7e326-ee9e-404a-82ea-d040fcce04ee
+DEBUG:root:Chrome processing pk: 9824c6e4-4298-455d-a433-f9021f405695
+DEBUG:root:https://arax.ncats.io/?r=9824c6e4-4298-455d-a433-f9021f405695
+DEBUG:root:Chrome processing pk: 47c8d42b-1554-475a-ba18-6e734549c645
+DEBUG:root:https://arax.ncats.io/?r=47c8d42b-1554-475a-ba18-6e734549c645
+DEBUG:root:Chrome processing pk: b9f4b358-b59d-4fef-9653-2d2890dfc625
+DEBUG:root:https://arax.ncats.io/?r=b9f4b358-b59d-4fef-9653-2d2890dfc625
+DEBUG:root:Chrome processing pk: 60c1a06a-84ff-433d-946e-7da3852d4a54
+DEBUG:root:https://arax.ncats.io/?r=60c1a06a-84ff-433d-946e-7da3852d4a54
+DEBUG:root:Chrome processing pk: ad1cd126-eba3-436d-9a70-bd70df8d012b
+DEBUG:root:https://arax.ncats.io/?r=ad1cd126-eba3-436d-9a70-bd70df8d012b
+DEBUG:root:Chrome processing pk: 3c8297a1-b8a9-4530-8887-4e916cb8368b
+DEBUG:root:https://arax.ncats.io/?r=3c8297a1-b8a9-4530-8887-4e916cb8368b
+DEBUG:root:Chrome processing pk: f54b369c-1b9b-486e-9b03-d59b213d2816
+DEBUG:root:https://arax.ncats.io/?r=f54b369c-1b9b-486e-9b03-d59b213d2816
+DEBUG:root:list of total_done time [0.001415864626566569, 0.002486451466878255, 0.0010491649309794107, 0.0017355998357137044, 0.0011374314626057943, 0.0010906497637430826, 0.0012960473696390787, 0.0013326168060302734, 0.0013527313868204752, 0.0014321684837341308] for 10 queries submitted 
+DEBUG:root:Number of queries to be run: 10
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.15812
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.140652
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.132399
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.139181
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.122428
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.121639
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.127476
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1190
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.124369
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.127223
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.123809
+DEBUG:root:list of pks ['eafb65b3-f4e6-4738-a045-1a347805646d', 'bf458685-f664-4cb8-9cb0-ae0240c81f01', 'a91a334d-6b9a-47fe-bdc2-85d562376f25', '8611dc2d-8c4a-4e0c-a6ba-58e962f005ce', '46c8bfde-9c3b-4eed-ae59-47e69e844d21', '0a961cd7-ff06-4035-bf12-5e94f8d2ecdd', '96da48dd-1389-4a36-ab6b-3040db0eec80', 'a9f6fc6b-bde5-4e3d-a3ac-c0b8ed57bee0', 'ba30ad75-f8fb-4eea-a577-61df262f9924', 'fa32c3a5-f84c-4487-b11d-1527ffb722da'] for 10 queries submitted 
+DEBUG:root:Entering Chrome
+DEBUG:root:Chrome processing pk: eafb65b3-f4e6-4738-a045-1a347805646d
+DEBUG:root:https://arax.ncats.io/?r=eafb65b3-f4e6-4738-a045-1a347805646d
+DEBUG:root:Chrome processing pk: bf458685-f664-4cb8-9cb0-ae0240c81f01
+DEBUG:root:https://arax.ncats.io/?r=bf458685-f664-4cb8-9cb0-ae0240c81f01
+DEBUG:root:Chrome processing pk: a91a334d-6b9a-47fe-bdc2-85d562376f25
+DEBUG:root:https://arax.ncats.io/?r=a91a334d-6b9a-47fe-bdc2-85d562376f25
+DEBUG:root:Chrome processing pk: 8611dc2d-8c4a-4e0c-a6ba-58e962f005ce
+DEBUG:root:https://arax.ncats.io/?r=8611dc2d-8c4a-4e0c-a6ba-58e962f005ce
+DEBUG:root:Chrome processing pk: 46c8bfde-9c3b-4eed-ae59-47e69e844d21
+DEBUG:root:https://arax.ncats.io/?r=46c8bfde-9c3b-4eed-ae59-47e69e844d21
+DEBUG:root:Chrome processing pk: 0a961cd7-ff06-4035-bf12-5e94f8d2ecdd
+DEBUG:root:https://arax.ncats.io/?r=0a961cd7-ff06-4035-bf12-5e94f8d2ecdd
+DEBUG:root:Chrome processing pk: 96da48dd-1389-4a36-ab6b-3040db0eec80
+DEBUG:root:https://arax.ncats.io/?r=96da48dd-1389-4a36-ab6b-3040db0eec80
+DEBUG:root:Chrome processing pk: a9f6fc6b-bde5-4e3d-a3ac-c0b8ed57bee0
+DEBUG:root:https://arax.ncats.io/?r=a9f6fc6b-bde5-4e3d-a3ac-c0b8ed57bee0
+DEBUG:root:Chrome processing pk: ba30ad75-f8fb-4eea-a577-61df262f9924
+DEBUG:root:https://arax.ncats.io/?r=ba30ad75-f8fb-4eea-a577-61df262f9924
+DEBUG:root:Chrome processing pk: fa32c3a5-f84c-4487-b11d-1527ffb722da
+DEBUG:root:https://arax.ncats.io/?r=fa32c3a5-f84c-4487-b11d-1527ffb722da
+DEBUG:root:Number of queries to be run: 10
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.120886
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.131491
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.118748
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.120628
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.118358
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.11856
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.11793
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1190
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.134896
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.11867
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.128154
+DEBUG:root:list of pks ['eab57290-fad4-487a-88f4-71ed6383c495', '5b090037-68a5-4457-adf8-90783f63fd18', '96ea3a93-8460-4478-815e-5d38bbe321c2', '52c6d228-d93f-449a-aa06-a9104c118a27', '16d4cad0-0abd-4794-bfaa-92fdbf3dc29e', '55a9e5fc-13e7-4bae-9e37-8323cf52622b', '57a15737-6b36-4d0a-a10f-0929a7421b8b', 'd667d7b4-5ccb-4524-ae59-11df81720010', 'f3fa2ace-48c3-4910-9f0f-3bb56c79b9cf', '2cb57dc5-0165-41fb-b528-0e08de5246da'] for 10 queries submitted 
+DEBUG:root:Entering Chrome
+DEBUG:root:Chrome processing pk: eab57290-fad4-487a-88f4-71ed6383c495
+DEBUG:root:https://arax.ncats.io/?r=eab57290-fad4-487a-88f4-71ed6383c495
+DEBUG:root:Chrome processing pk: 5b090037-68a5-4457-adf8-90783f63fd18
+DEBUG:root:https://arax.ncats.io/?r=5b090037-68a5-4457-adf8-90783f63fd18
+DEBUG:root:Chrome processing pk: 96ea3a93-8460-4478-815e-5d38bbe321c2
+DEBUG:root:https://arax.ncats.io/?r=96ea3a93-8460-4478-815e-5d38bbe321c2
+DEBUG:root:Chrome processing pk: 52c6d228-d93f-449a-aa06-a9104c118a27
+DEBUG:root:https://arax.ncats.io/?r=52c6d228-d93f-449a-aa06-a9104c118a27
+DEBUG:root:Chrome processing pk: 16d4cad0-0abd-4794-bfaa-92fdbf3dc29e
+DEBUG:root:https://arax.ncats.io/?r=16d4cad0-0abd-4794-bfaa-92fdbf3dc29e
+DEBUG:root:Chrome processing pk: 55a9e5fc-13e7-4bae-9e37-8323cf52622b
+DEBUG:root:https://arax.ncats.io/?r=55a9e5fc-13e7-4bae-9e37-8323cf52622b
+DEBUG:root:Chrome processing pk: 57a15737-6b36-4d0a-a10f-0929a7421b8b
+DEBUG:root:https://arax.ncats.io/?r=57a15737-6b36-4d0a-a10f-0929a7421b8b
+DEBUG:root:Chrome processing pk: d667d7b4-5ccb-4524-ae59-11df81720010
+DEBUG:root:https://arax.ncats.io/?r=d667d7b4-5ccb-4524-ae59-11df81720010
+DEBUG:root:Chrome processing pk: f3fa2ace-48c3-4910-9f0f-3bb56c79b9cf
+DEBUG:root:https://arax.ncats.io/?r=f3fa2ace-48c3-4910-9f0f-3bb56c79b9cf
+DEBUG:root:Chrome processing pk: 2cb57dc5-0165-41fb-b528-0e08de5246da
+DEBUG:root:https://arax.ncats.io/?r=2cb57dc5-0165-41fb-b528-0e08de5246da
+DEBUG:root:Number of queries to be run: 10
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.122879
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.202154
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1275
+DEBUG:root:response time for the D.1_MS-Myelination.json query is 0.125649
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1207
+DEBUG:root:response time for the myastheniaTargets.json query is 0.124056
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 924
+DEBUG:root:response time for the C.1-pericarditis.json query is 0.117628
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1191
+DEBUG:root:response time for the A.2_RNF207_twohop.json query is 0.11896
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 2047
+DEBUG:root:response time for the A.2a_expanded_FGFR3_twohop.json query is 0.123823
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1190
+DEBUG:root:response time for the A.2_RHOBTB2_twohop.json query is 0.167413
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 1285
+DEBUG:root:response time for the corticosteroidAutoimmune.json query is 0.143689
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 885
+DEBUG:root:response time for the nauseaTreats.json query is 0.27389
+DEBUG:root:list of pks ['3bc9773b-ede6-4d30-bf79-e8b56dd14edd', '39a916a5-aca8-473d-9896-c401e3973881', 'c5f55a55-2800-43c7-88e4-ec4bcaa0d771', 'a72d997f-3046-4987-8cc4-adb699286f8e', 'f6527339-4c13-4714-b574-0d882b457bc3', '4f4da158-b327-4703-b360-fc8a8c382a35', 'b25994ea-6ff5-4ab8-bcfc-a8c63066d245', 'faa551d0-2938-4666-9c6e-5e3e9bdb6aa2', 'e458f217-62ee-42a4-8efe-1a06a5ce2eb1', 'f8001e87-79de-454e-9a29-7f07dbb4a5eb'] for 10 queries submitted 
+DEBUG:root:list of total_done time [0.0016431132952372232, 0.0019841353098551434, 0.0012939016024271647, 0.0012453158696492514, 0.0021253506342569987, 0.0017158826192220052, 0.001851336161295573, 0.0009594003359476726, 0.0011502504348754883, 0.0011275529861450196] for 10 queries submitted 
+DEBUG:root:Number of queries to be run: 2
+DEBUG:root:get_files
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 886
+DEBUG:root:response time for the ngly-chem.json query is 0.124172
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ars-prod.transltr.io:443
+DEBUG:urllib3.connectionpool:https://ars-prod.transltr.io:443 "POST /ars/api/submit HTTP/1.1" 201 912
+DEBUG:root:response time for the ciliaChemicals.json query is 0.127766
+DEBUG:root:list of pks ['2e2b4d0b-6d2f-40f3-af28-6370e7376d89', 'c4e34dea-d9f9-4307-8fa9-09646f1c0f8c'] for 2 queries submitted 
+DEBUG:root:list of total_done time [0.0048018654187520346, 0.004096718629201254] for 2 queries submitted 
