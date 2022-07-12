@@ -5,6 +5,10 @@ import logging
 import webbrowser
 import time
 import argparse
+import random
+from statistics import mean
+import numpy as np
+import pickle
 import multiprocessing as mp
 
 BASE_PATH=os.path.dirname(
@@ -13,7 +17,7 @@ BASE_PATH=os.path.dirname(
 parser = argparse.ArgumentParser(description='Load Tester')
 parser.add_argument('-c', '--count', help='Number of queries to be run', default=10)
 parser.add_argument('-d','--delay',help='Number of seconds to delay between each query submission',default=0)
-
+parser.add_argument('-t', '--type', help='Analysis type to perform {response_time or completion_time}', type=str, default='response_time')
 
 def sendQuery(query, url="https://ars-prod.transltr.io/ars/api/submit"):
     with open(query, "r") as f:
@@ -23,6 +27,33 @@ def sendQuery(query, url="https://ars-prod.transltr.io/ars/api/submit"):
     rj = r.json()
     pk = rj["pk"]
     return pk, response_time 
+
+def browser(pks,url="https://arax.ncats.io/?r="):
+    logging.debug("Entering Chrome")
+    if isinstance(pks, list):
+        for pk in pks:
+            logging.debug("Chrome processing pk: "+pk)
+            logging.debug(url+pk)
+            webbrowser.get('firefox').open(url+pk)
+    else:
+        logging.debug("Chrome processing pk: "+pks)
+        logging.debug(url+pks)
+        webbrowser.get('firefox').open(url+pks)
+
+
+def sendAsyncQuery(query,url="https://ars-prod.transltr.io/ars/api/submit"): 
+
+    with open(query, "r") as f:
+        query_json = json.load(f)
+    r= requests.post(url,json.dumps(query_json))
+    rj = r.json()
+    pk = rj["pk"]
+    print(pk)
+    browser(pk)
+    total_time = single_pk_total_time(pk)
+    output = {pk:(query, total_time)}
+    return output
+
 
 def get_files(relativePath):
     logging.debug("get_files")
@@ -40,7 +71,6 @@ def run(limit,delay):
     pk_list=[]
     response_time_list = []
     for file in files:
-        print(file)
         current_pk, response_time= sendQuery(file)
         logging.debug("response time for the {} query is {} seconds".format(os.path.basename(file), response_time))
         pk_list.append(current_pk)
@@ -51,16 +81,20 @@ def run(limit,delay):
           break
     return pk_list, response_time_list
 
-def browser(pk_list,url="https://arax.ncats.io/?r="):
-    logging.debug("Entering Chrome")
-    for pk in pk_list:
-        logging.debug("Chrome processing pk: "+pk)
-        logging.debug(url+pk)
-        webbrowser.get('firefox').open(url+pk)
+def run_async(limit):
+    files = get_files("/queries")
+    selected_files=random.sample(files,limit)
+    pool = mp.Pool(mp.cpu_count()) 
+    output = pool.map_async(sendAsyncQuery, [file for file in selected_files]).get()
+    pool.close()
+    
+    with open(f'completion_time_{limit}_queries', 'wb') as result_file:
+        pickle.dump(output, result_file)
+    return output
+
 
 def single_pk_total_time(pk):
     
-    status_list=[]
     start_time=time.time()
     while True:
         url=f"https://ars-prod.transltr.io/ars/api/messages/{pk}?trace=y"
@@ -78,60 +112,37 @@ def single_pk_total_time(pk):
             print(f"It has taken longer than 10 minutes for pk {pk}")
             print("The following tools have not yet finished: ")
             for child in rj['children']:
-                 if child['status'] == "Running":
-                     stragglers.append(child["actor"]["inforesid"])
+                if child['status'] == "Running":
+                    stragglers.append(child["actor"]["inforesid"])
             print(str(stragglers))
-
-
             break
         else:
             time.sleep(30)
-        # for child in rj['children']:
-        #     if child['status'] == "Error":
-        #         pass
-        #     else:
-        #         status_list.append(child['status'])
-        #
-        # if all( x == "Done" for x in status_list):
-        #     print(f"all ARAs have returned results for pk {pk}")
-        #     logging.debug(f"all ARAs have returned results for pk {pk}")
-        #     stop_time=time.time()
-        #     total_time = (stop_time - start_time)/60
-        #     print(f"it took {total_time} for it to get completed")
-        #     logging.debug(f"it took {total_time} for it to get completed")
-        #     break
-        #
-        # status_list=[]
-        # time.sleep(30)
-        # continue
-
     return total_time
-
-def get_completion_time(pk_list):
-    ##https://www.machinelearningplus.com/python/parallel-processing-python/#:~:text=The%20general%20way%20to%20parallelize,of%20Pool%20s%20parallization%20methods.
-    # Step 1: Init multiprocessing.Pool()
-    pool = mp.Pool(mp.cpu_count())  
-    # Step 2: `pool.apply` the single_pk_total_time
-    Done_time = pool.map(single_pk_total_time, [pk for pk in pk_list])
-    pool.close()   
-    print(Done_time[:10])
-    return Done_time
-
 
 def main():
     logging.basicConfig(filename='myapp.log', level=logging.DEBUG)
     args = parser.parse_args()
     count = getattr(args,"count")
     delay = getattr(args,"delay")
-    logging.debug("Number of queries to be run: {}".format(count))
-    pks=run(int(count),delay)
-    logging.debug("list of pks {} for {} queries submitted ".format(pks, count))
-    browser(pks)
-    done_time=get_completion_time(pks)
-    print(f'done time is {done_time} minutes')
-    logging.debug("list of total_done time {} for {} queries submitted ".format(done_time, count))
-    quit(0)
-
+    type = getattr(args, "type")
+    logging.debug("Running {} analysis for {} queries".format(type, count))
+    if type == 'response_time':
+        pks, response_time = run(int(count),delay)
+        logging.debug("list of pks {} for {} queries submitted ".format(pks, count))
+        percentile_list=[]
+        for perc in [50, 75, 90, 95, 99]:
+            percentile_list.append(np.percentile(response_time, perc))
+        logging.debug("Based on {} queires, the shortest response time is  {} sec, the longest response time is {} sec".format(count, min(response_time), max(response_time)))
+        logging.debug("response time 50th: {}, 75th: {}, 90th: {}, 95th: {}, 99th: {}".format(percentile_list[0],percentile_list[1],percentile_list[2],percentile_list[3],percentile_list[4]))
+        browser(pks)
+    elif type == 'completion_time':
+        results = run_async(int(count))
+        logging.debug("Here are results list indicating the 'pk' : (query, completion_time) for {} queries submitted ".format(count))
+        logging.debug(results)
+    else:
+        print("you have chosen a wrong analysis type, exiting...")
+        quit(0)    
 
 if __name__== '__main__':
     main()
