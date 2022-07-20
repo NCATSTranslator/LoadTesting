@@ -148,7 +148,7 @@ def main():
         browser(pks)
     elif type == 'completion_time':
         results = run_async(int(count), mode)
-        logging.debug("Here are results list indicating the 'pk' : (query, completion_time) for {} queries submitted on {} mode".format(count), mode)
+        logging.debug("Here are results list indicating the 'pk' : (query, completion_time) for {} queries submitted on {} mode".format(count, mode))
         logging.debug(results)
     else:
         print("you have chosen a wrong analysis type, exiting...")
