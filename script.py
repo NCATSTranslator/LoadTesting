@@ -18,6 +18,7 @@ parser = argparse.ArgumentParser(description='Load Tester')
 parser.add_argument('-c', '--count', help='Number of queries to be run', default=10)
 parser.add_argument('-d','--delay',help='Number of seconds to delay between each query submission',default=0)
 parser.add_argument('-t', '--type', help='Analysis type to perform {response_time or completion_time}', type=str, default='response_time')
+parser.add_argument('-m', '--mode', help='standard or creative mode query (creative or standard(default)', type=str, default='standard')
 
 def sendQuery(query, url="https://ars-prod.transltr.io/ars/api/submit"):
     with open(query, "r") as f:
@@ -64,9 +65,12 @@ def get_files(relativePath):
         files.append(my_file)
     return files
 
-def run(limit,delay):
+def run(limit,delay, mode):
     pass
-    files = get_files("/queries")
+    if mode == 'standard':
+        files = get_files("/queries")
+    elif mode == 'creative': 
+        files = get_files("/queries/creative")
     count = 0
     pk_list=[]
     response_time_list = []
@@ -81,8 +85,12 @@ def run(limit,delay):
           break
     return pk_list, response_time_list
 
-def run_async(limit):
-    files = get_files("/queries")
+def run_async(limit, mode):
+    if mode == 'standard':
+        files = get_files("/queries")
+    elif mode == 'creative': 
+        files = get_files("/queries/creative")
+    
     selected_files=random.sample(files,limit)
     pool = mp.Pool(mp.cpu_count()) 
     output = pool.map_async(sendAsyncQuery, [file for file in selected_files]).get()
@@ -126,9 +134,11 @@ def main():
     count = getattr(args,"count")
     delay = getattr(args,"delay")
     type = getattr(args, "type")
-    logging.debug("Running {} analysis for {} queries".format(type, count))
+    mode = getattr(args, "mode")
+
+    logging.debug("Running {} analysis for {} {} queries".format(type, count, mode))
     if type == 'response_time':
-        pks, response_time = run(int(count),delay)
+        pks, response_time = run(int(count),delay, mode)
         logging.debug("list of pks {} for {} queries submitted ".format(pks, count))
         percentile_list=[]
         for perc in [50, 75, 90, 95, 99]:
@@ -137,8 +147,8 @@ def main():
         logging.debug("response time 50th: {}, 75th: {}, 90th: {}, 95th: {}, 99th: {}".format(percentile_list[0],percentile_list[1],percentile_list[2],percentile_list[3],percentile_list[4]))
         browser(pks)
     elif type == 'completion_time':
-        results = run_async(int(count))
-        logging.debug("Here are results list indicating the 'pk' : (query, completion_time) for {} queries submitted ".format(count))
+        results = run_async(int(count), mode)
+        logging.debug("Here are results list indicating the 'pk' : (query, completion_time) for {} queries submitted on {} mode".format(count), mode)
         logging.debug(results)
     else:
         print("you have chosen a wrong analysis type, exiting...")
